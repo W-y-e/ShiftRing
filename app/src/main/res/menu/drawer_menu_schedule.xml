@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/store_update"
+        android:icon="@drawable/ic_store_update"
+        android:title="Store Update" />
+    <item
+        android:id="@+id/six"
+        android:icon="@drawable/ic_looks_6_black_24dp"
+        android:title="Six" />
+
+    <item android:title="New post">
+        <menu>
+            <item
+                android:id="@+id/cover"
+                android:icon="@drawable/ic_add_circle_outline"
+                android:title="Cover" />
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/ic_notifications"
+                android:title="Notifications" />
+        </menu>
+    </item>
+
+    <item android:title="Operator">
+        <menu>
+            <item
+                android:id="@+id/request"
+                android:icon="@drawable/ic_add_circle_solid"
+                android:title="Request" />
+            <item
+                android:id="@+id/manager_post"
+                android:icon="@drawable/ic_manager_post"
+                android:title="Manager Post" />
+        </menu>
+    </item>
+
+
+</menu>
